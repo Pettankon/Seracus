@@ -1,0 +1,15 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+path="res://.import/advance_script_button_mask.png-691f9819541f40a64ca8a7e154162ff9.res"
+
+[deps]
+
+source_file="res://Images/GUI/advance_script_button_mask.png"
+dest_files=[ "res://.import/advance_script_button_mask.png-691f9819541f40a64ca8a7e154162ff9.res" ]
+
+[params]
+
+create_from=0
+threshold=0.5

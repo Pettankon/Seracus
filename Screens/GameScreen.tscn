@@ -1,0 +1,135 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Images/GUI/dialogue_background.png" type="Texture" id=1]
+[ext_resource path="res://Fonts/EBGaramond-Italic.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Images/Backgrounds/tavern.png" type="Texture" id=3]
+[ext_resource path="res://Screens/DialogueScript.gd" type="Script" id=4]
+[ext_resource path="res://Fonts/EBGaramond-BoldItalic.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://Fonts/EBGaramond-Bold.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://Fonts/EBGaramond-Regular.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://Images/GUI/advance_script_button_mask.png" type="BitMap" id=10]
+
+[sub_resource type="DynamicFont" id=1]
+size = 24
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 24
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 24
+font_data = ExtResource( 7 )
+
+[node name="GameScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1280.0
+margin_bottom = -720.0
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "The primary screen of the game. This screen contains the dialog box."
+}
+
+[node name="BackgroundPanel" type="Panel" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 3 )
+centered = false
+
+[node name="DialogueBox" type="Node" parent="."]
+
+[node name="DBLCanvasLayer" type="CanvasLayer" parent="DialogueBox"]
+
+[node name="DialogueBoxLabel" type="RichTextLabel" parent="DialogueBox/DBLCanvasLayer"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 186.0
+margin_top = -202.0
+margin_right = 1122.0
+margin_bottom = -78.0
+custom_colors/default_color = Color( 0.0509804, 0.0509804, 0.0509804, 1 )
+custom_fonts/bold_italics_font = SubResource( 1 )
+custom_fonts/italics_font = SubResource( 2 )
+custom_fonts/bold_font = SubResource( 3 )
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = " [b]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur at ex nec facilisis. Vestibulum auctor imperdiet lorem ac ornare. Sed et dolor ut mauris sollicitudin ullamcorper. Morbi aliquet pulvinar sapien, in iaculis lorem mollis eu. Donec sit amet commodo risus. Cras fringilla interdum urna. Nullam consequat nisl sit amet malesuada porttitor. Fusce vitae luctus est, sed tincidunt diam.[/b]
+
+Phasellus vitae lorem tempus nisi imperdiet efficitur. Vestibulum ac risus rutrum dui consequat ultrices id et lorem. Sed in mauris id dui porta ultricies id ut erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu neque libero. Suspendisse tincidunt rhoncus turpis id ornare. Vestibulum convallis convallis ante, pretium congue sapien rutrum vitae. Nullam tincidunt, ante at facilisis eleifend, mi eros sagittis libero, a dapibus quam urna quis massa. Vivamus ultricies mi nibh. Nunc at lectus a sapien efficitur aliquam. Cras eget ligula facilisis, porta mauris eu, maximus diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam suscipit, enim id laoreet rhoncus, libero velit commodo nisi, tristique posuere orci arcu in lectus. In et quam scelerisque, scelerisque lacus sed, commodo lacus.
+
+Integer blandit hendrerit ante, et pellentesque augue convallis dapibus. Proin sollicitudin consectetur nunc non suscipit. Aenean vitae justo vitae est viverra sollicitudin vitae non leo. Quisque at metus erat. Donec pellentesque mollis lorem, a pretium felis mattis at. Phasellus efficitur sem nunc, sed tempus ante rutrum eget. Ut velit justo, ornare a porttitor quis, placerat in neque. Suspendisse potenti. Phasellus ultricies ut tellus sed dignissim. Praesent in porttitor leo, et porttitor odio."
+text = " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur at ex nec facilisis. Vestibulum auctor imperdiet lorem ac ornare. Sed et dolor ut mauris sollicitudin ullamcorper. Morbi aliquet pulvinar sapien, in iaculis lorem mollis eu. Donec sit amet commodo risus. Cras fringilla interdum urna. Nullam consequat nisl sit amet malesuada porttitor. Fusce vitae luctus est, sed tincidunt diam.
+
+Phasellus vitae lorem tempus nisi imperdiet efficitur. Vestibulum ac risus rutrum dui consequat ultrices id et lorem. Sed in mauris id dui porta ultricies id ut erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu neque libero. Suspendisse tincidunt rhoncus turpis id ornare. Vestibulum convallis convallis ante, pretium congue sapien rutrum vitae. Nullam tincidunt, ante at facilisis eleifend, mi eros sagittis libero, a dapibus quam urna quis massa. Vivamus ultricies mi nibh. Nunc at lectus a sapien efficitur aliquam. Cras eget ligula facilisis, porta mauris eu, maximus diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam suscipit, enim id laoreet rhoncus, libero velit commodo nisi, tristique posuere orci arcu in lectus. In et quam scelerisque, scelerisque lacus sed, commodo lacus.
+
+Integer blandit hendrerit ante, et pellentesque augue convallis dapibus. Proin sollicitudin consectetur nunc non suscipit. Aenean vitae justo vitae est viverra sollicitudin vitae non leo. Quisque at metus erat. Donec pellentesque mollis lorem, a pretium felis mattis at. Phasellus efficitur sem nunc, sed tempus ante rutrum eget. Ut velit justo, ornare a porttitor quis, placerat in neque. Suspendisse potenti. Phasellus ultricies ut tellus sed dignissim. Praesent in porttitor leo, et porttitor odio."
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DBFCanvasLayer" type="CanvasLayer" parent="DialogueBox"]
+layer = 0
+
+[node name="DialogueBoxFrame" type="NinePatchRect" parent="DialogueBox/DBFCanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 100.0
+margin_top = 470.0
+margin_right = -100.0
+margin_bottom = -30.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CharacterSpriteSpots" type="Node" parent="."]
+
+[node name="Char1" type="Sprite" parent="CharacterSpriteSpots"]
+position = Vector2( 150, 355 )
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Char2" type="Sprite" parent="CharacterSpriteSpots"]
+position = Vector2( 350, 355 )
+scale = Vector2( 0.4, 0.4 )
+
+[node name="Char3" type="Sprite" parent="CharacterSpriteSpots"]
+position = Vector2( 640, 355 )
+scale = Vector2( 0.4, 0.4 )
+
+[node name="Char4" type="Sprite" parent="CharacterSpriteSpots"]
+position = Vector2( 1130, 355 )
+scale = Vector2( 0.4, 0.4 )
+
+[node name="Char5" type="Sprite" parent="CharacterSpriteSpots"]
+position = Vector2( 930, 355 )
+scale = Vector2( 0.4, 0.4 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="NextLineButton" type="TextureButton" parent="CanvasLayer"]
+margin_right = 1280.0
+margin_bottom = 720.0
+texture_click_mask = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NameLabel" type="Label" parent="."]
+margin_left = 340.0
+margin_top = 381.0
+margin_right = 711.0
+margin_bottom = 483.0
+text = "TEMPORARY NAME"
+
+[connection signal="pressed" from="CanvasLayer/NextLineButton" to="DialogueBox/DBLCanvasLayer/DialogueBoxLabel" method="_on_NextLineButton_pressed"]
