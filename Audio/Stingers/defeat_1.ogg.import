@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/defeat_1.ogg-d984d4e2bf3495476cd274b1ce50c510.oggstr"
+
+[deps]
+
+source_file="res://Audio/Stingers/defeat_1.ogg"
+dest_files=[ "res://.import/defeat_1.ogg-d984d4e2bf3495476cd274b1ce50c510.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

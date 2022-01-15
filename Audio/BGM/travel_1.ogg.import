@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/travel_1.ogg-908da96115390ffa329ccae9e13eadac.oggstr"
+
+[deps]
+
+source_file="res://Audio/BGM/travel_1.ogg"
+dest_files=[ "res://.import/travel_1.ogg-908da96115390ffa329ccae9e13eadac.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
