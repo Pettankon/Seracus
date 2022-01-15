@@ -19,6 +19,7 @@ func _on_NextLineButton_pressed():
 			self.bbcode_text = script_line[current_line]
 	else:
 		self.bbcode_text = "this message shouldn't appear, right? also booba! also this is the end of the dialogue ive put in"
+		current_line -= 1
 	self.scroll_to_line(0)
 
 var character_busts = {
