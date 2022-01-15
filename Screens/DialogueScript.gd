@@ -41,13 +41,13 @@ var character_sprite_spots = {
 }
 
 var script_line = { # remember to set empty lines as null
-	1:{"Bust":"Elyssia", "SpriteSpot":1},
+	1:{"Bust":"Elyssia", "SpriteSpot":2},
 	2:"[i]Elyssia walks confidently into the tavern, before dusting her white evening gloves off upon each other as her gaze travels around the warm, packed room.[/i]",
 	3:"[i]Among the many surprised faces, respectful or otherwise, very few of the tavern-goers stood out to her, as the third daughter of the cities namesake and ruler, Lord Gyldenbend.[/i]",
 	4:"[i]Once she decides that she's surveyed the tavern sufficiently, she takes one step after another towards the bar, her creamy dump-truck butt jiggling and sweat shimmering under the torchlight with every bounce.[/i]",
 	5:"Another den of commoners... I swear one of these days I'll have to walk into [i]someplace[/i] fun in this city. [i]She says confidently, not caring for the looks nor opinions of those around her.[/i]",
 	6:"[i]Once she’s made her way to the bar, she bends over the counter and leans towards the barkeep, before whispering almost conspiratorially about a certain delicious dish called ‘pizza’ that she hopes he knows how to make, or at-least hopes he knows someone who knows how to make it. He does not. So Elyssia pomfs her butt down upon a bar stool and mopes as she considers what non-alcoholic drink to buy.[/i]",
-	7:{"Bust":"", "SpriteSpot":1},
+	7:{"Bust":"", "SpriteSpot":2},
 	8:{"Bust":"Lyra", "SpriteSpot":5},
 	9:"[i]Sulking in the corner of the bar, Lyra, filled with hope of drawing in one of the bar's residents for an easy meal, is currently faking a drunken stupor as she keeps one sharp eye on the juicy noble snack that had just walked into the bar. Lyra quickly realised that she has never tasted the blood of so pretty a noble and so, driven by both hunger and curiosity, begins thinking of the myriad ways she could turn the blood of this noble girl’s ass into her snack.[/i]",
 	10:"[i]With renewed motivation—after failing to snatch a random guy from the bar using her patented strategy of ‘squeezing her tits around her victim’s arm while a free hand wanders their body’—Lyra makes her way towards her next choice of victim. She sensually licks her lips before taking a seat next to Elyssia and ordering a mug of water.[/i]",
